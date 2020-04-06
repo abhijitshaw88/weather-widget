@@ -1,5 +1,4 @@
 body{
-    overflow-y: hidden;
     background-color:#d9ccff;
 }
 /* ######  divide into 3 column ########## */
@@ -76,7 +75,9 @@ ol li{
 .par{
   font-size: 8px;
 } */
-
+#cityname{
+  font-size: 10px;
+}
 
 .container {
     background: rgb(230,223,232);
@@ -85,10 +86,11 @@ ol li{
     width: 1000px;
     height: 500px;
     border: 1px solid white;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    margin-top: 80px;
+    margin-bottom: 50px;
     margin-right: 200px;
     margin-left: 200px;
+    overflow-y: hidden;
 }
 label{
     display: block;
